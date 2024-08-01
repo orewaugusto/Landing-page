@@ -75,7 +75,6 @@ body {
 
 img {
   max-width: 50%;
-  /* padding-bottom: 50px; */
 }
 
 
@@ -91,11 +90,39 @@ img {
   text-align: center;
 }
 
+.content p {
+  margin-bottom: 0;
+}
+
 .Nautilus img {
   margin-top: 20px;
 }
 
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 200px;
+}
+
+.quote-section p {
+  margin: 0;
+  color: #1F2937;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+}
+
+.author {
+  display: flex;
+  font-weight: 600;
+  font-size: 25px;
+  align-self: flex-end;
+}
+
 /* * {
   outline: 2px solid red;
-}
- */
+} */
