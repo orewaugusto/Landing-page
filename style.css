@@ -27,8 +27,13 @@ body {
 .links {
   display: flex;
   list-style: none;
+  align-items: center;
   padding: 0;
   gap: 16px;
+}
+
+.links li{
+  height: fit-content;
 }
 
 .links a {
@@ -62,7 +67,7 @@ body {
   margin: 0;
 }
 
-.sign-in-btn {
+.sign-up-btn {
   background-color: #3882f6;
   align-self: baseline;
   color: white;
@@ -71,18 +76,27 @@ body {
   border: none;
   border-radius: 10px;
   padding: 8px 36px;
+  cursor: pointer;
+}
+
+.border {
+  border: 2px solid white; 
+}
+
+.no-border {
+  border: none; 
 }
 
 img {
   max-width: 50%;
 }
 
-
 .content {
   display: flex;
   justify-content: center;
-  gap: 52px;
+  gap: 50px;
   padding: 40px 0;
+  flex-wrap: wrap;
 }
 
 .Nautilus, .Fossil, .Brachiosaur, .Mammoth {
@@ -95,14 +109,15 @@ img {
 }
 
 .Nautilus img {
-  margin-top: 20px;
+  margin-top: 26px;
 }
 
 .quote-section {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 40px 200px;
+  padding: 70px 220px;
+  gap: 10px;
 }
 
 .quote-section p {
@@ -123,6 +138,33 @@ img {
   align-self: flex-end;
 }
 
+.call {
+  background-color: #3882f6;
+  margin: 40px 150px;
+  padding: 40px 0px;
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.call-text h1, .call-text p{
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #1F2937;
+}
+
+footer p {
+  padding: 20px;
+  margin: 0;
+}
+
 /* * {
   outline: 2px solid red;
-} */
+}
+ */
